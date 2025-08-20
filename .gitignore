@@ -18,7 +18,6 @@ profile
 *.~nib
 DerivedData/
 *.DS_Store
-*.pbxproj
 *.xcuserstate
 *.xcscmblueprint
 *.xcworkspacedata

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 70;
+	objectVersion = 90;
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
@@ -30,32 +30,38 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		20FF4D0A2E55FAEA006A5428 /* Wallet */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Wallet; sourceTree = "<group>"; };
-		20FF4D1B2E55FAEC006A5428 /* WalletTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = WalletTests; sourceTree = "<group>"; };
-		20FF4D252E55FAEC006A5428 /* WalletUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = WalletUITests; sourceTree = "<group>"; };
+		20FF4D0A2E55FAEA006A5428 /* Wallet */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Wallet;
+			sourceTree = "<group>";
+		};
+		20FF4D1B2E55FAEC006A5428 /* WalletTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = WalletTests;
+			sourceTree = "<group>";
+		};
+		20FF4D252E55FAEC006A5428 /* WalletUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = WalletUITests;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		20FF4D052E55FAEA006A5428 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		20FF4D152E55FAEC006A5428 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		20FF4D1F2E55FAEC006A5428 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
@@ -93,14 +99,10 @@
 			);
 			buildRules = (
 			);
-			dependencies = (
-			);
 			fileSystemSynchronizedGroups = (
 				20FF4D0A2E55FAEA006A5428 /* Wallet */,
 			);
 			name = Wallet;
-			packageProductDependencies = (
-			);
 			productName = Wallet;
 			productReference = 20FF4D082E55FAEA006A5428 /* Wallet.app */;
 			productType = "com.apple.product-type.application";
@@ -122,8 +124,6 @@
 				20FF4D1B2E55FAEC006A5428 /* WalletTests */,
 			);
 			name = WalletTests;
-			packageProductDependencies = (
-			);
 			productName = WalletTests;
 			productReference = 20FF4D182E55FAEC006A5428 /* WalletTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -145,8 +145,6 @@
 				20FF4D252E55FAEC006A5428 /* WalletUITests */,
 			);
 			name = WalletUITests;
-			packageProductDependencies = (
-			);
 			productName = WalletUITests;
 			productReference = 20FF4D222E55FAEC006A5428 /* WalletUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -175,7 +173,6 @@
 				};
 			};
 			buildConfigurationList = 20FF4D032E55FAEA006A5428 /* Build configuration list for PBXProject "wallet" */;
-			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -184,6 +181,7 @@
 			);
 			mainGroup = 20FF4CFF2E55FAEA006A5428;
 			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 90;
 			productRefGroup = 20FF4D092E55FAEA006A5428 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -198,48 +196,36 @@
 /* Begin PBXResourcesBuildPhase section */
 		20FF4D062E55FAEA006A5428 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		20FF4D162E55FAEC006A5428 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		20FF4D202E55FAEC006A5428 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		20FF4D042E55FAEA006A5428 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		20FF4D142E55FAEC006A5428 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		20FF4D1E2E55FAEC006A5428 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
@@ -257,7 +243,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		20FF4D2A2E55FAEC006A5428 /* Debug */ = {
+		20FF4D2A2E55FAEC006A5428 /* Debug configuration for PBXProject "wallet" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -320,7 +306,7 @@
 			};
 			name = Debug;
 		};
-		20FF4D2B2E55FAEC006A5428 /* Release */ = {
+		20FF4D2B2E55FAEC006A5428 /* Release configuration for PBXProject "wallet" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -375,7 +361,7 @@
 			};
 			name = Release;
 		};
-		20FF4D2D2E55FAEC006A5428 /* Debug */ = {
+		20FF4D2D2E55FAEC006A5428 /* Debug configuration for PBXNativeTarget "Wallet" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -414,7 +400,7 @@
 			};
 			name = Debug;
 		};
-		20FF4D2E2E55FAEC006A5428 /* Release */ = {
+		20FF4D2E2E55FAEC006A5428 /* Release configuration for PBXNativeTarget "Wallet" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -453,7 +439,7 @@
 			};
 			name = Release;
 		};
-		20FF4D302E55FAEC006A5428 /* Debug */ = {
+		20FF4D302E55FAEC006A5428 /* Debug configuration for PBXNativeTarget "WalletTests" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -476,7 +462,7 @@
 			};
 			name = Debug;
 		};
-		20FF4D312E55FAEC006A5428 /* Release */ = {
+		20FF4D312E55FAEC006A5428 /* Release configuration for PBXNativeTarget "WalletTests" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -499,7 +485,7 @@
 			};
 			name = Release;
 		};
-		20FF4D332E55FAEC006A5428 /* Debug */ = {
+		20FF4D332E55FAEC006A5428 /* Debug configuration for PBXNativeTarget "WalletUITests" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -521,7 +507,7 @@
 			};
 			name = Debug;
 		};
-		20FF4D342E55FAEC006A5428 /* Release */ = {
+		20FF4D342E55FAEC006A5428 /* Release configuration for PBXNativeTarget "WalletUITests" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -549,37 +535,33 @@
 		20FF4D032E55FAEA006A5428 /* Build configuration list for PBXProject "wallet" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				20FF4D2A2E55FAEC006A5428 /* Debug */,
-				20FF4D2B2E55FAEC006A5428 /* Release */,
+				20FF4D2A2E55FAEC006A5428 /* Debug configuration for PBXProject "wallet" */,
+				20FF4D2B2E55FAEC006A5428 /* Release configuration for PBXProject "wallet" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		20FF4D2C2E55FAEC006A5428 /* Build configuration list for PBXNativeTarget "Wallet" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				20FF4D2D2E55FAEC006A5428 /* Debug */,
-				20FF4D2E2E55FAEC006A5428 /* Release */,
+				20FF4D2D2E55FAEC006A5428 /* Debug configuration for PBXNativeTarget "Wallet" */,
+				20FF4D2E2E55FAEC006A5428 /* Release configuration for PBXNativeTarget "Wallet" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		20FF4D2F2E55FAEC006A5428 /* Build configuration list for PBXNativeTarget "WalletTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				20FF4D302E55FAEC006A5428 /* Debug */,
-				20FF4D312E55FAEC006A5428 /* Release */,
+				20FF4D302E55FAEC006A5428 /* Debug configuration for PBXNativeTarget "WalletTests" */,
+				20FF4D312E55FAEC006A5428 /* Release configuration for PBXNativeTarget "WalletTests" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		20FF4D322E55FAEC006A5428 /* Build configuration list for PBXNativeTarget "WalletUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				20FF4D332E55FAEC006A5428 /* Debug */,
-				20FF4D342E55FAEC006A5428 /* Release */,
+				20FF4D332E55FAEC006A5428 /* Debug configuration for PBXNativeTarget "WalletUITests" */,
+				20FF4D342E55FAEC006A5428 /* Release configuration for PBXNativeTarget "WalletUITests" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
